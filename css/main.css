@@ -41,23 +41,50 @@
 .subheaders-main a {
 	margin: 3rem;
 }
-
-.logo img{
-    height: 2em;
-    margin: 0.9em;
+.logo img {
+	height: 2em;
+	margin: 0.9em;
 }
 
+#amps {
+	opacity: 0.7;
+	transition-duration: 0.2s;
+}
+#amps:hover {
+	opacity: 1;
+}
+#speakers {
+	opacity: 0.7;
+	transition-duration: 0.2s;
+}
+#speakers:hover {
+	opacity: 1;
+}
+#cables {
+	opacity: 0.7;
+	transition-duration: 0.2s;
+}
+#cables:hover {
+	opacity: 1;
+}
 #cart {
 	margin: 3rem 6.5rem;
+	opacity: 0.7;
+	transition-duration: 0.2s;
+}
+#cart:hover {
+	opacity: 1;
 }
 
 #hero-title {
 	font-size: 8rem;
 	font-weight: 1000;
+	border-bottom: solid 16px black;
 }
 .hero-subtext {
 	width: 80%;
 	text-align: end;
+	border-bottom: solid 1px black;
 }
 .landing-content {
 	grid-column: 2/3;
@@ -67,7 +94,7 @@
 	margin-top: 2em;
 	font-weight: 600;
 	font-style: oblique;
-	display: inline-block
+	display: inline-block;
 }
 #buy-now {
 	margin-top: 2em;
@@ -77,4 +104,9 @@
 	text-decoration: none;
 	font-weight: 600;
 	color: black;
+	opacity: 40%;
+	transition-duration: 0.2s;
+}
+#buy-now:hover {
+	opacity: 100%;
 }
