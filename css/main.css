@@ -15,6 +15,7 @@
 	grid-template-columns: 2fr 1fr;
 	grid-template-rows: 20svh 1fr;
 	background-image: url(/images/BnW.png);
+	background-position-y: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -28,7 +29,6 @@
 	grid-template-rows: 1fr;
 }
 .subheaders a {
-	margin: 4rem;
 	color: black;
 	text-decoration: none;
 	font-weight: 700;
@@ -38,10 +38,18 @@
 	justify-content: center;
 	grid-column: 2/6;
 }
-
-#cart:hover {
+.subheaders-main a {
+	margin: 3rem;
 }
 
+.logo img{
+    height: 2em;
+    margin: 0.9em;
+}
+
+#cart {
+	margin: 3rem 6.5rem;
+}
 
 #hero-title {
 	font-size: 8rem;
@@ -68,8 +76,5 @@
 	font-style: oblique;
 	text-decoration: none;
 	font-weight: 600;
-}
-
-#buy-now:hover > .landing{
-	background-image: url('/images/onHover.png')
+	color: black;
 }
